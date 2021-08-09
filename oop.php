@@ -26,8 +26,6 @@ class TestClass
 }
 
 $obj = new TestClass();
-
-
-$obj->printValue(); // Shows Public, Protected and Private
+$obj->printValue(); 
 
 //Here need to call the showMessage function from the TestClass
