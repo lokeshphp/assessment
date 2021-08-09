@@ -19,7 +19,7 @@ class TestClass
         echo $this->private."<br>";;
 
     }
-    public static function showvars(){
+    public static function showMessage(){
         echo "\n this is from static function";
     }
 
@@ -30,4 +30,4 @@ $obj = new TestClass();
 
 $obj->printValue(); // Shows Public, Protected and Private
 
-//Here need to call the showvars function from the TestClass
+//Here need to call the showMessage function from the TestClass
